@@ -1,0 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/liberr.woff2") format("woff2"),
+    url("../fonts/liberr.woff.woff") format("woff");
+}
+/* libre-baskerville-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/liberb.woff2") format("woff2"),
+    url("../fonts/liberb.woff.woff") format("woff");
+}
