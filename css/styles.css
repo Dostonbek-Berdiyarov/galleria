@@ -72,16 +72,11 @@ img {
 
 /* hero */
 
-.hero {
-  padding-bottom: 311px;
-}
 .hero_imgs-wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 200px 200px 200px 200px 200px 200px 200px;
   -ms-grid-columns: 310px 310px 310px 310px;
-  grid-template: repeat(7, 200px) / repeat(4, 310px);
-  grid-template: repeat(7, 200px) / repeat(4, 310px);
+  grid-template-columns: repeat(4, 310px);
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -92,6 +87,8 @@ img {
 .hero_columns-wrapper {
   display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 200px 200px 200px 200px 200px 200px 200px;
+  grid-template-rows: repeat(7, 200px);
   row-gap: 40px;
 }
 .hero_img-wrapper {
